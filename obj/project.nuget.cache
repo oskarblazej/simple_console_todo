@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5cToMVfk6shPYAAcNsT5ZCRkUUZyMQ3U9Sw0iLFaIx/weJEIGT7LQh6oUuyBUhwVkHvDHdVv2ZRdtmszJzjQ6w==",
+  "success": true,
+  "projectFilePath": "/home/oskarblazej/Code/simple_console_todo/simple_console_todo.csproj",
+  "expectedPackageFiles": [
+    "/home/oskarblazej/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.1/microsoft.aspnetcore.app.ref.7.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

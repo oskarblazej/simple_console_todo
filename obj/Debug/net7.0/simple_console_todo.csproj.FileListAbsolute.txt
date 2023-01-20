@@ -1,0 +1,15 @@
+/home/oskarblazej/Code/simple_console_todo/bin/Debug/net7.0/simple_console_todo
+/home/oskarblazej/Code/simple_console_todo/bin/Debug/net7.0/simple_console_todo.deps.json
+/home/oskarblazej/Code/simple_console_todo/bin/Debug/net7.0/simple_console_todo.runtimeconfig.json
+/home/oskarblazej/Code/simple_console_todo/bin/Debug/net7.0/simple_console_todo.dll
+/home/oskarblazej/Code/simple_console_todo/bin/Debug/net7.0/simple_console_todo.pdb
+/home/oskarblazej/Code/simple_console_todo/obj/Debug/net7.0/simple_console_todo.csproj.AssemblyReference.cache
+/home/oskarblazej/Code/simple_console_todo/obj/Debug/net7.0/simple_console_todo.GeneratedMSBuildEditorConfig.editorconfig
+/home/oskarblazej/Code/simple_console_todo/obj/Debug/net7.0/simple_console_todo.AssemblyInfoInputs.cache
+/home/oskarblazej/Code/simple_console_todo/obj/Debug/net7.0/simple_console_todo.AssemblyInfo.cs
+/home/oskarblazej/Code/simple_console_todo/obj/Debug/net7.0/simple_console_todo.csproj.CoreCompileInputs.cache
+/home/oskarblazej/Code/simple_console_todo/obj/Debug/net7.0/simple_console_todo.dll
+/home/oskarblazej/Code/simple_console_todo/obj/Debug/net7.0/refint/simple_console_todo.dll
+/home/oskarblazej/Code/simple_console_todo/obj/Debug/net7.0/simple_console_todo.pdb
+/home/oskarblazej/Code/simple_console_todo/obj/Debug/net7.0/simple_console_todo.genruntimeconfig.cache
+/home/oskarblazej/Code/simple_console_todo/obj/Debug/net7.0/ref/simple_console_todo.dll
