@@ -1,2 +1,4 @@
 # simple_console_todo
-Simple console app with todo list functionality.
+
+## Description
+Simple console app with todo list functionality written in C# NET 6.0
