@@ -84,6 +84,7 @@ class Program
 	if (tasks.Count == 0)
 	{
 		Console.WriteLine("No tasks to edit.");
+		System.Threading.Thread.Sleep(1000);
 		Update();
 	}
 	else
@@ -119,6 +120,7 @@ class Program
 		if (tasks.Count == 0)
 		{
 			Console.WriteLine("No tasks to remove.");
+			System.Threading.Thread.Sleep(1000);
 			Update();
 		}
 		else
