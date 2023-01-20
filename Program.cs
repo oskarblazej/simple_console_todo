@@ -31,6 +31,7 @@ class Program
 					RemoveTask();
 					break;
 				case 4: 
+					Console.WriteLine("Thank you for using our application.");
 					System.Environment.Exit(0);
 					break;
 				default:
@@ -56,6 +57,7 @@ class Program
 
 	static void ListTasks()
 	{
+		Console.WriteLine("----------TASKS----------");
 		if (tasks.Count == 0)
 		{
 			Console.WriteLine("No current tasks.");
