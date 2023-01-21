@@ -40,9 +40,9 @@ class Program
 					break;
 			}
 		}
-		catch (System.FormatException)
+		catch (Exception e)
 		{
-			Console.WriteLine("Please type numeric value from menu.");
+			Console.WriteLine(e.Message);
 			goto start;
 		}
 	}
@@ -106,9 +106,9 @@ class Program
 				Update();
 			}
 		}
-		catch (System.FormatException)
+		catch (Exception e)
 		{
-			Console.WriteLine("Please enter number of task.");
+			Console.WriteLine(e.Message);
 			goto start;
 		}
 	}
@@ -144,9 +144,9 @@ class Program
 						Update();
 					}
 				}
-				catch (System.FormatException)
+				catch (Exception e)
 				{
-					Console.WriteLine("Please enter number of task");
+					Console.WriteLine(e.Message);
 					goto start;
 				}
 		}
