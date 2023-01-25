@@ -1,36 +1,43 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net6.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net6.0": []
   },
   "packageFolders": {
-    "/home/oskarblazej/.nuget/packages/": {}
+    "C:\\Users\\hampe\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/oskarblazej/Code/simple_console_todo/simple_console_todo.csproj",
+      "projectUniqueName": "C:\\Users\\hampe\\Documents\\Code\\C#\\simple_console_todo\\simple_console_todo.csproj",
       "projectName": "simple_console_todo",
-      "projectPath": "/home/oskarblazej/Code/simple_console_todo/simple_console_todo.csproj",
-      "packagesPath": "/home/oskarblazej/.nuget/packages/",
-      "outputPath": "/home/oskarblazej/Code/simple_console_todo/obj/",
+      "projectPath": "C:\\Users\\hampe\\Documents\\Code\\C#\\simple_console_todo\\simple_console_todo.csproj",
+      "packagesPath": "C:\\Users\\hampe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hampe\\Documents\\Code\\C#\\simple_console_todo\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/oskarblazej/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\hampe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -41,8 +48,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
@@ -54,18 +61,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.1, 7.0.1]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

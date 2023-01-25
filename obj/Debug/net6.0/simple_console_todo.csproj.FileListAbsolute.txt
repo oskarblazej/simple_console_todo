@@ -1,0 +1,15 @@
+C:\Users\hampe\Documents\Code\C#\simple_console_todo\bin\Debug\net6.0\simple_console_todo.exe
+C:\Users\hampe\Documents\Code\C#\simple_console_todo\bin\Debug\net6.0\simple_console_todo.deps.json
+C:\Users\hampe\Documents\Code\C#\simple_console_todo\bin\Debug\net6.0\simple_console_todo.runtimeconfig.json
+C:\Users\hampe\Documents\Code\C#\simple_console_todo\bin\Debug\net6.0\simple_console_todo.dll
+C:\Users\hampe\Documents\Code\C#\simple_console_todo\bin\Debug\net6.0\simple_console_todo.pdb
+C:\Users\hampe\Documents\Code\C#\simple_console_todo\obj\Debug\net6.0\simple_console_todo.csproj.AssemblyReference.cache
+C:\Users\hampe\Documents\Code\C#\simple_console_todo\obj\Debug\net6.0\simple_console_todo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hampe\Documents\Code\C#\simple_console_todo\obj\Debug\net6.0\simple_console_todo.AssemblyInfoInputs.cache
+C:\Users\hampe\Documents\Code\C#\simple_console_todo\obj\Debug\net6.0\simple_console_todo.AssemblyInfo.cs
+C:\Users\hampe\Documents\Code\C#\simple_console_todo\obj\Debug\net6.0\simple_console_todo.csproj.CoreCompileInputs.cache
+C:\Users\hampe\Documents\Code\C#\simple_console_todo\obj\Debug\net6.0\simple_console_todo.dll
+C:\Users\hampe\Documents\Code\C#\simple_console_todo\obj\Debug\net6.0\refint\simple_console_todo.dll
+C:\Users\hampe\Documents\Code\C#\simple_console_todo\obj\Debug\net6.0\simple_console_todo.pdb
+C:\Users\hampe\Documents\Code\C#\simple_console_todo\obj\Debug\net6.0\simple_console_todo.genruntimeconfig.cache
+C:\Users\hampe\Documents\Code\C#\simple_console_todo\obj\Debug\net6.0\ref\simple_console_todo.dll

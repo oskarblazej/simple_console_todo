@@ -5,10 +5,10 @@ using System.IO;
 class Program
 {
     static List<string> tasks = new List<string>();
-
+    static string filename = "profiles/" + Console.ReadLine().ToUpper() + ".txt";
     static void Main()
     {
-        string filename = getPath();
+        
         if (File.Exists(filename))
         {
             // if file exists read content to list
@@ -24,13 +24,6 @@ class Program
         Update();
     }
 
-	static string getPath()
-	{
-		Console.Write("Enter username: ");
-        string name = Console.ReadLine().ToUpper();
-        string filename = "profiles/" + name + ".txt";
-		return filename;
-	}
     static void MenuFunctionality()
     {
     // Handle menu functionality with switch case
@@ -178,11 +171,9 @@ class Program
         Console.Write("Do you want to save your results? (Y/N): ");
         char response = char.Parse(Console.ReadLine().ToUpper());
         
-		// TODO: fix filename ref
-		/*
 		if (response == 'Y')
         {
-            using (TextWriter streamWriter = new StreamWriter())
+            using (TextWriter streamWriter = new StreamWriter(filename))
             {
                 foreach (string s in tasks)
                 {
@@ -191,7 +182,6 @@ class Program
 				Console.WriteLine("Data written successfully.");
             }
         }
-		*/
         Console.WriteLine("Thank you for using our application.");
         System.Environment.Exit(0);
 
