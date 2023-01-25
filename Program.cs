@@ -5,10 +5,13 @@ using System.IO;
 class Program
 {
     static List<string> tasks = new List<string>();
-    static string filename = "profiles/" + Console.ReadLine().ToUpper() + ".txt";
+    static string filename;
+
     static void Main()
     {
-        
+        Console.Clear();
+        Console.Write("Enter name: ");
+        filename = "profiles/" + Console.ReadLine().ToUpper() + ".txt";
         if (File.Exists(filename))
         {
             // if file exists read content to list
