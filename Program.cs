@@ -50,7 +50,6 @@ class Program
                     break;
                 case 4:
                     ExitApp();
-                        break;
                     break;
                 default:
                     Console.WriteLine("This function does not exist in current context.");
