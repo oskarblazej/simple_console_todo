@@ -31,7 +31,8 @@ class Program
     {
     // Handle menu functionality with switch case
     // Try getting input from user and handle that user might type non numeric value
-    start:
+    while(true)
+        {
         try
         {
             Console.Write("Your Choice: ");
@@ -49,18 +50,21 @@ class Program
                     break;
                 case 4:
                     ExitApp();
+                        break;
                     break;
                 default:
                     Console.WriteLine("This function does not exist in current context.");
-                    goto start;
+                        continue;
                     break;
             }
+                break;
         }
         catch (Exception e)
         {
             Console.WriteLine(e.Message);
-            goto start;
+            continue;
         }
+    }
     }
 
     static void MenuListing()
@@ -105,27 +109,30 @@ class Program
         }
         else
         {
-        start:
-            Console.Write("Which task do you want to edit: ");
-            try
+            while (true)
             {
-                int index = int.Parse(Console.ReadLine());
-                if (index <= 0 || index > tasks.Count)
+                Console.Write("Which task do you want to edit: ");
+                try
                 {
-                    Console.WriteLine("Please enter valid task number");
-                    goto start;
+                    int index = int.Parse(Console.ReadLine());
+                    if (index <= 0 || index > tasks.Count)
+                    {
+                        Console.WriteLine("Please enter valid task number");
+                        continue;
+                    }
+                    else
+                    {
+                        Console.Write("New task name: ");
+                        tasks[index - 1] = Console.ReadLine();
+                        Update();
+                    }
+                    break;
                 }
-                else
+                catch (Exception e)
                 {
-                    Console.Write("New task name: ");
-                    tasks[index - 1] = Console.ReadLine();
-                    Update();
+                    Console.WriteLine(e.Message);
+                    continue;
                 }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                goto start;
             }
         }
     }
@@ -141,29 +148,32 @@ class Program
         }
         else
         {
-        start:
-            Console.Write("Which task do you want to remove: ");
-            try
+            while (true)
             {
-                int index = int.Parse(Console.ReadLine());
-                // if given number is out of range
-                if (index <= 0 || index > tasks.Count)
+                Console.Write("Which task do you want to remove: ");
+                try
                 {
-                    Console.WriteLine("Please enter valid task number");
-                    goto start;
+                    int index = int.Parse(Console.ReadLine());
+                    // if given number is out of range
+                    if (index <= 0 || index > tasks.Count)
+                    {
+                        Console.WriteLine("Please enter valid task number");
+                        continue;
+                    }
+                    else
+                    {
+                        // index - 1 because user can see item number + 1
+                        tasks.RemoveAt(index - 1);
+                        Console.WriteLine("Task removed successfully.");
+                        Update();
+                    }
+                    break;
                 }
-                else
+                catch (Exception e)
                 {
-                    // index - 1 because user can see item number + 1
-                    tasks.RemoveAt(index - 1);
-                    Console.WriteLine("Task removed successfully.");
-                    Update();
+                    Console.WriteLine(e.Message);
+                    continue;
                 }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                goto start;
             }
         }
     }
